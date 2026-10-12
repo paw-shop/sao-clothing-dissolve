@@ -1,0 +1,25 @@
+{
+  "name": "com.juanz.sao-clothing-dissolve",
+  "displayName": "SAO Clothing Dissolve",
+  "version": "0.1.0",
+  "unity": "2022.3",
+  "description": "Avatar-only editor addon that prepares SAO-inspired clothing dissolve effects for VRChat avatars without Udon or runtime C# scripts.",
+  "author": {
+    "name": "JuanZ"
+  },
+  "vpmDependencies": {
+    "com.vrchat.avatars": ">=3.7.0"
+  },
+  "keywords": [
+    "VRChat",
+    "VCC",
+    "VPM",
+    "avatar",
+    "avatars",
+    "dissolve",
+    "clothing"
+  ],
+  "samples": [],
+  "license": "MIT"
+}
+

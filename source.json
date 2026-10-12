@@ -1,0 +1,12 @@
+{
+  "name": "SAO Clothing Dissolve",
+  "id": "com.juanz.sao-clothing-dissolve.repo",
+  "url": "https://YOUR_GITHUB_USER.github.io/YOUR_REPO/vpm.json",
+  "author": {
+    "name": "JuanZ"
+  },
+  "githubRepos": [
+    "YOUR_GITHUB_USER/YOUR_REPO"
+  ]
+}
+
