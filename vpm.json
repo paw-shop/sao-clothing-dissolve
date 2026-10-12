@@ -2,9 +2,7 @@
   "name": "SAO Clothing Dissolve",
   "id": "com.pawshop.sao-clothing-dissolve.repo",
   "url": "https://paw-shop.github.io/sao-clothing-dissolve/vpm.json",
-  "author": {
-    "name": "paw-shop"
-  },
+  "author": "paw-shop",
   "packages": {
     "com.juanz.sao-clothing-dissolve": {
       "versions": {
