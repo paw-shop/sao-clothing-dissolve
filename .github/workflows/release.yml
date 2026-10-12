@@ -6,7 +6,42 @@ on:
       - "v*"
 
 jobs:
+  package:name: Release VPM Package
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
   package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read package version
+        id: package
+        shell: bash
+        run: |
+          VERSION=$(jq -r '.version' Packages/com.juanz.sao-clothing-dissolve/package.json)
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Create package zip
+        shell: bash
+        run: |
+          cd Packages/com.juanz.sao-clothing-dissolve
+          zip -r "../../com.juanz.sao-clothing-dissolve-${{ steps.package.outputs.version }}.zip" .
+
+      - name: Checksum
+        shell: bash
+        run: sha256sum "com.juanz.sao-clothing-dissolve-${{ steps.package.outputs.version }}.zip"
+
+      - name: Upload release asset
+        uses: softprops/action-gh-release@v2
+        with:
+          files: com.juanz.sao-clothing-dissolve-${{ steps.package.outputs.version }}.zip
+
+
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
