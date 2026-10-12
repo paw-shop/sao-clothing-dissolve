@@ -1,12 +1,12 @@
 {
   "name": "SAO Clothing Dissolve",
-  "id": "com.juanz.sao-clothing-dissolve.repo",
-  "url": "https://YOUR_GITHUB_USER.github.io/YOUR_REPO/vpm.json",
+  "id": "com.paw-shop.sao-clothing-dissolve.repo",
+  "url": "https://paw-shop.github.io/sao-clothing-dissolve/vpm.json",
   "author": {
-    "name": "JuanZ"
+    "name": "paw-shop"
   },
   "githubRepos": [
-    "YOUR_GITHUB_USER/YOUR_REPO"
+    "paw-shop/sao-clothing-dissolve"
   ]
 }
 

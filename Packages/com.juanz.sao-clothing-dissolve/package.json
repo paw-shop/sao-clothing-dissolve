@@ -5,7 +5,7 @@
   "unity": "2022.3",
   "description": "Avatar-only editor addon that prepares SAO-inspired clothing dissolve effects for VRChat avatars without Udon or runtime C# scripts.",
   "author": {
-    "name": "JuanZ"
+    "name": "paw-shop"
   },
   "vpmDependencies": {
     "com.vrchat.avatars": ">=3.7.0"

@@ -22,11 +22,11 @@ For local development, copy or keep this repository and add the package folder t
 
 This repository includes a `vpm.json` listing. Before publishing:
 
-1. Replace `YOUR_GITHUB_USER` and `YOUR_REPO` in `vpm.json`.
+1. Confirm that `vpm.json` points to `https://paw-shop.github.io/sao-clothing-dissolve/vpm.json`.
 2. Create a zip release containing the package contents.
 3. Update the release URL and SHA-256 zip checksum in `vpm.json`.
 4. Host `vpm.json` through GitHub Pages or another public URL.
-5. Add that URL in VRChat Creator Companion as a user repository.
+5. Add `https://paw-shop.github.io/sao-clothing-dissolve/vpm.json` in VRChat Creator Companion as a user repository.
 
 VPM packages use Unity-compatible `package.json` manifests, and VPM repository listings expose package versions in a JSON listing read by Creator Companion. See the official VCC docs for the current package and repository formats:
 

@@ -1,9 +1,9 @@
 {
   "name": "SAO Clothing Dissolve",
-  "id": "com.juanz.sao-clothing-dissolve.repo",
-  "url": "https://YOUR_GITHUB_USER.github.io/YOUR_REPO/vpm.json",
+  "id": "com.paw-shop.sao-clothing-dissolve.repo",
+  "url": "https://paw-shop.github.io/sao-clothing-dissolve/vpm.json",
   "author": {
-    "name": "JuanZ"
+    "name": "paw-shop"
   },
   "packages": {
     "com.juanz.sao-clothing-dissolve": {
@@ -15,15 +15,15 @@
           "unity": "2022.3",
           "description": "Avatar-only editor addon that prepares SAO-inspired clothing dissolve effects for VRChat avatars without Udon or runtime C# scripts.",
           "author": {
-            "name": "JuanZ"
+            "name": "paw-shop"
           },
           "vpmDependencies": {
             "com.vrchat.avatars": ">=3.7.0"
           },
           "legacyFolders": {},
           "legacyFiles": {},
-          "url": "https://github.com/YOUR_GITHUB_USER/YOUR_REPO/releases/download/v0.1.0/com.juanz.sao-clothing-dissolve-0.1.0.zip",
-          "zipSHA256": "REPLACE_WITH_RELEASE_ZIP_SHA256"
+          "url": "https://github.com/paw-shop/sao-clothing-dissolve/releases/download/v0.1.0/com.juanz.sao-clothing-dissolve-0.1.0.zip",
+          "zipSHA256": "F0B1A54C5E312977A14CB232A18CB43C18B2D9583D4DEC866AE0FFA027B7BEF2"
         }
       }
     }
